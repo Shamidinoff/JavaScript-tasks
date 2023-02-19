@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Объекты и массивы</h1>
+  </body>
+  <script>
+    // Example
+    /* let name = "Bekzhan";
+       let age = 20;
+       let hobby = "Frontend"
+
+       let name2 = "Luiza";
+       let age2 = 21;
+       let hobby2 = "Frontend" */
+
+    // Example
+
+    /*  const student1 = {
+           name: "Bekzhan",
+           age: 20,
+            hobby: "Frontend"
+       }
+
+       console.log(student1.name); //student1.name вызывает только имя
+
+       const student2 = {
+           name: "Luiza",
+           age: 21,
+            hobby: "Frontend"
+       }
+
+       console.log(student2);  */
+
+    // Example
+
+    /* student2.name = "Ayazhan";
+       console.log(student2);
+
+       student2.age = 22; */
+
+    // Example
+
+    /* const person = {
+         name: "Daurenbek",
+         age: 29,
+         major: "Accountant",
+         hobby: "Sport",
+       };
+
+       console.log(
+         "Имя: " +
+           person.name +
+           ", Возраст: " +
+           person.age +
+           ", Профессия: " +
+           person.major +
+           ", Увлечение: " +
+           person.hobby
+       );
+
+       console.log(person["name"]);
+
+       let property = "major";
+       console.log(person["property"]); */
+
+    // Example
+
+    /* for (property in person) {
+           console.log(person[property]);
+       } */
+
+    // Example
+
+    /*  const movie = {
+         name: "Avatar 2: The way of water",
+         premiere: 2022,
+         budjet: 1000000,
+         producer: "James Cameron",
+       };
+
+       for (property in movie) {
+         console.log(property + " " + movie[property]);
+       } */
+
+    // Шаблонные строки
+
+    /* console.log(`Name: ${movie.name}, Premiere: $(movie.premiere)`); */
+
+    // OBJECT
+
+    /* let student1 = "Luiza",
+         student2 = "Daurenbek",
+         student3 = "Dina",
+         student4 = "Bekzhan"; */
+
+    /*  const students = [
+         "Luiza",
+         "Daurenbek",
+         "Dina",
+         "Bekzhan",
+         "Ayazhan",
+         "Olzhas",
+         "Artem",
+       ]; */
+    /* console.log(students[students.length - 1]);
+
+       student[4] = "Artem";
+       console.log(students);  */ //students.length = 0;
+
+    /* for (let i = 0; i < students.length; i++) {
+         console.log(students[i]);
+       } */
+
+    /* for (student of students) {
+         console.log(student);
+       }
+    */
+    const numbers = [2, 4, 6, 8, 9, 10];
+
+    /* for (let i = 0; i < numbers.length; i++) {
+           console.log(numbers[i]**2); //numbers[2] = 6**2 = 36
+       } */
+
+    /* for (number of numbers) {
+        console.log(number**2)
+       } */
+
+    numbers[numbers.length] = 15;
+    console.log(numbers);
+
+    // PUSH add
+
+    numbers.push("text");
+    console.log(numbers);
+
+    // POP delete
+
+    numbers.pop();
+    console.log(numbers);
+  </script>
+</html>
