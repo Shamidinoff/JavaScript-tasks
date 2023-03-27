@@ -1,0 +1,27 @@
+<body>
+    <header>
+      <div class="header__logo">
+        <div class="header__logo__img">
+          <img
+            src="..."
+            alt=""
+          />
+        </div>
+        <h1 class="header__logo__text">Battlefront 2</h1>
+      </div>
+      <nav class="menu">
+        <a href="">Buy</a>
+        <a href="">Info</a>
+        <a href="">All Prices</a>
+        <a href="">Contact Us</a>
+      </nav>
+
+      <div class="burger-icon"></div>
+    </header>
+    <div class="burger-menu">
+      <a href="">Buy</a>
+      <a href="">Info</a>
+      <a href="">All Prices</a>
+      <a href="">Contact Us</a>
+    </div>
+  </body>
