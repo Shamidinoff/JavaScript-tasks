@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.widget {
+  width: 400px;
+  height: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+.current {
+  width: 100%;
+  height: 35%;
+  background-color: rgb(0, 155, 26);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.forecast {
+  width: 100%;
+  background-color: rgba(215, 218, 250, 0.65);
+  border: 1px solid rgb(0, 155, 26);
+}
+
+.img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+}
+
+.current-city,
+.current-time {
+  display: block;
+  text-align: left;
+}
+
+.speed-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-speed-name {
+  text-align: left;
+}
+
+.current-speed {
+  text-align: right;
+}
+
+.temp {
+  padding-bottom: 20px;
+}
+
+.fc-content li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(0, 155, 26);
+  padding: 10px;
+}
+
+.fc-content li img {
+  width: 50px;
+}
