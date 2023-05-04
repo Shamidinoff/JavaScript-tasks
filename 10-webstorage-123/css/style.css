@@ -1,0 +1,26 @@
+/*  ЗАДАНИЕ № 5  */
+
+#myButton {
+    background-color: #f1f1f1;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  #myButton:hover {
+    background-color: rgb(<?= rand(0, 255) ?>, <?= rand(0, 255) ?>, <?= rand(0, 255) ?>);
+  }
+  
+  #myButton.rotate {
+    transform: rotate(<?= rand(-180, 180) ?>deg);
+  }
+
+  /*  ЗАДАНИЕ № 1  */
+  
